@@ -1,7 +1,7 @@
 import classes from "./ProjectsPage.module.css";
 
 const ProjectsPage = () => {
-    return <h1>PROJECTS</h1>
+    return <div className={classes.projects}> <h1>PROJECTS</h1></div>
 }
 
 export default ProjectsPage;

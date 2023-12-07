@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <>
+
       <div className={classes.home}>
-        <div className={classes.homeWrapper}>
-          <section className={classes.welcomeBox + " " + classes.fadeIn}>
+        <div className={classes.homeWrapper + " " + classes.fadeIn}>
+          <section className={classes.welcomeBox}>
             <h1>HOME</h1>
 
             <p className={classes.text}>
@@ -26,9 +26,21 @@ const HomePage = () => {
               </Button>
             </div>
           </section>
+
+
+          <img
+            src={require("../../assets/images/blank.png")}
+            alt="Jami Downs"
+          ></img>
+
         </div>
-      </div>
-    </>
+
+
+
+
+        
+      </div> 
+
   );
 };
 

@@ -1,0 +1,13 @@
+.navList {
+    display: none;
+  }
+  
+  @media screen and (min-width: 550px) {
+    .navList {
+      display: block;
+      list-style: none;
+      display: flex;
+      gap: 2em;
+    }
+  }
+  

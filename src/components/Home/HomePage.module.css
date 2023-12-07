@@ -1,14 +1,34 @@
-.home h1 {
+.home {
+  /* background-color: antiquewhite; */
+}
+
+.homeWrapper {
   padding: 10px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1em;
+  max-width: 1400px;
+  
 }
 .welcomeBox {
   display: flex;
   flex-direction: column;
+
   gap: 1em;
   margin: 0 auto;
   padding: 10px;
   max-width: 900px;
+}
+
+.welcomeBox .btnBox {
+  max-width: 200px;
+}
+
+.homeWrapper img {
+  width: 300px;
+  justify-self: center;
 }
 
 .fadeIn {
@@ -28,37 +48,26 @@
   }
 }
 
-.homeWrapper,
-.skilsWrapper {
-  background-color: #9cafb7;
-  padding: 5px;
-}
-.welcomeBox .btnBox {
-  max-width: 200px;
-}
-
-.btnBox button {
-  margin: 0;
-}
-
-.btnBox a {
-  color: black;
-}
-
-.text {
-  margin-bottom: 1em;
-}
 @media screen and (min-width: 768px) {
-  .welcomeBox {
-    gap: 1em;
-    margin-top: 5em;
-    margin-bottom: 6em;
+  .homeWrapper {
+    gap: 3em;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .welcomeBox {
-    margin-top: 8em;
-    margin-bottom: 9em;
+  .homeWrapper {
+    flex-direction: row;
+    margin-top: 4em;
   }
+
+  /* .home{
+    padding: 5em;
+  } */
 }
+
+@media screen and (min-width: 1400px) {
+    .homeWrapper {
+        flex-direction: row;
+        margin-top: 6em;
+      }
+  }
