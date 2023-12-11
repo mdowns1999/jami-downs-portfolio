@@ -39,8 +39,10 @@ const ProjectsPage = () => {
 
       <section className={classes.subjects}>
         {projectSubjects.map((project) => {
-            return <div className={classes.subjectBox} key={project.id}> 
+            return <div className={classes.subjectBox} key={project.id} > 
+                <div className={classes.textBoxOverlay}>
                 <Link to={`${project.name}`}><h2>{project.name.toUpperCase()}</h2></Link>
+                </div>
             </div>
         })}
       </section>

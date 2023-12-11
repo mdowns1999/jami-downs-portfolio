@@ -5,6 +5,9 @@ const AboutPage = () => {
   return (
     <>
       <div className={classes.about}>
+        <section className="banner">
+          <h1>About</h1>
+        </section>
       <section className={classes.aboutBox}>
           <div>
             <h1>Personal life</h1>
