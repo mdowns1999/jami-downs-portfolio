@@ -1,0 +1,21 @@
+.projectCard{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+   
+}
+
+/* .textBoxOverlay{
+    position: absolute;
+    bottom: 100;
+    left: 50;
+} */
+
+.projectCard:hover{
+    background-color:red;
+}
