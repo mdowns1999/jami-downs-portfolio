@@ -1,9 +1,10 @@
 :root {
-  --primaryColor: #2E4057;
-  --secondaryColor: #9cafb7;
-  --accentOne: #2E8B57;
-  --accentTwo: #FFD500;
-  --accentThree: #4281A4;
+  --primaryColor: #AA8B56;
+  --secondaryColor: #4E6C50;
+  --accentOne: #AA8B56;
+  --accentTwo: #F0EBCE;
+  /* --accentTwo: #F0EBCE; */
+  /* --primaryColor: #395144; */
 }
 
 * {
