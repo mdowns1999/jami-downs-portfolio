@@ -8,7 +8,7 @@ justify-content: space-evenly;
 padding: 10px;
 }
 
-.subjectBox{
+/* .subjectBox{
     width: 300px;
     height: 250px;
     border: 1px solid black;
@@ -20,12 +20,7 @@ padding: 10px;
    
 }
 
-/* .textBoxOverlay{
-    position: absolute;
-    bottom: 100;
-    left: 50;
-} */
 
 .subjectBox:hover{
     background-color:red;
-}
+} */

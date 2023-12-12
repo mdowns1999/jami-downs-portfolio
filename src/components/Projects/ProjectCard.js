@@ -3,11 +3,12 @@ import classes from "./ProjectCard.module.css";
 
 const ProjectCard = (props) => {
   return(
-  <div className={classes.ProjectCard}>
-    <Link to={`${props.name}`}>
-      <h2>{props.name.toUpperCase()}</h2>
-    </Link>
-  </div>);
+    <Link to={`${props.link}`}>
+  <div className={classes.projectCard}>
+    
+      {props.name.toUpperCase()}
+  </div>
+  </Link>);
 };
 
 export default ProjectCard;

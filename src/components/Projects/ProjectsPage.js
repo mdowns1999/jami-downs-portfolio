@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import classes from "./ProjectsPage.module.css";
+import ProjectCard from "./ProjectCard";
 
 const ProjectsPage = () => {
   let projectSubjects = [
@@ -23,25 +23,15 @@ const ProjectsPage = () => {
     <div className={classes.projects}>
       <section className="banner">
         <h1>Projects</h1>
-        {/* <p>
-          A small description about projects. A small description about
-          projects. A small description about projects. A small description
-          about projects. A small description about projects. A small
-          description about projects. A small description about projects. A
-          small description about projects. A small description about projects.
-          A small description about projects. A small description about
-          projects. A small description about projects. A small description
-          about projects. A small description about projects. A small
-          description about projects. A small description about projects. A
-          small description about projects. A small description about projects.
-        </p> */}
       </section>
 
       <section className={classes.subjects}>
         {projectSubjects.map((project) => {
-            return <div className={classes.subjectBox} key={project.id} > 
-                <Link to={`${project.name}`}><h2>{project.name.toUpperCase()}</h2></Link>
-            </div>
+            return <ProjectCard
+            key={project.id}
+            link={project.name}
+            name={project.name}
+            />
         })}
       </section>
     </div>
