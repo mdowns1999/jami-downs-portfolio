@@ -7,13 +7,13 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div className={classes.contact}>
         <p>Contact Me:</p>
-        <a href="mailto:michaeljdowns99@gmail.com">michaeljdowns99@gmail.com</a>
+        <a href="mailto:jamiaknight5@gmail.com">jamiaknight5@gmail.com</a>
       </div>
       <div className={classes.copyright}>&copy; Jami Downs {year}</div>
       <div className={classes.social}>
         <div className={classes.linkedinBox}>
           <a
-            href="https://www.linkedin.com/in/mike-downs/"
+            href="https://www.linkedin.com/in/jami-knight/"
             rel="noreferrer"
             target="_blank"
           >
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className={classes.instagramBox}>
           <a
-            href="https://www.linkedin.com/in/mike-downs/"
+            href="https://www.linkedin.com/in/jami-knight/"
             rel="noreferrer"
             target="_blank"
           >

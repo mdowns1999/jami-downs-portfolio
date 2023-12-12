@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import classes from "./ProjectList.module.css";
 import ProjectCard from "./ProjectCard";
+import Button from "../UI/Button";
 
 const ProjectList = () => {
   const params = useParams();
@@ -51,6 +52,12 @@ const ProjectList = () => {
           );
         })}
       </ul>
+
+      <div className={classes.btnBox}>
+              <Button>
+                <Link to="/projects">Back to Projects</Link>
+              </Button>
+            </div>
     </div>
   );
 };

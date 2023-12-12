@@ -8,6 +8,10 @@
   grid-template-columns: 1fr;
 }
 
+.aboutBox h1, .skillsBox h1{
+  margin-bottom: 1em;
+}
+
 .skillsBox {
   background-color: #9cafb7;
 }

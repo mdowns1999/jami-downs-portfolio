@@ -8,3 +8,16 @@ justify-content: space-evenly;
 padding: 10px;
 list-style: none;
 }
+
+.btnBox {
+    max-width: 250px;
+    margin: 1em auto;
+  }
+  
+  .btnBox button {
+    margin: 0;
+  }
+  
+  .btnBox a{
+    color:black;
+  }
