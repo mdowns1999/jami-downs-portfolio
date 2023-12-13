@@ -45,7 +45,20 @@
 .btnBox a{
   color:black;
 }
+
+.text {
+  margin-bottom: 1em;
+}
+
 @media screen and (min-width: 768px) {
+  .about img {
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+
   .aboutBox,
   .skillsBox {
     gap: 2em;
@@ -56,16 +69,12 @@
   .skillsContent {
     grid-column: 2/3;
   }
-}
 
-.text {
-  margin-bottom: 1em;
-}
-
-@media screen and (min-width: 1000px) {
-
-  .aboutBox,
-  .skillsBox {
-    gap: 3em;
+  .about img {
+    justify-self: center;
+    align-self: center;
+    width: 80%;
   }
 }
+
+
