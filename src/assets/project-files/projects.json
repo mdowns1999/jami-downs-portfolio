@@ -1,11 +1,12 @@
 [
-{
+  {
     "name": "writing",
     "projects": [
         {
             "id": "w1",
-            "name": "Article Title",
-            "content" : ["Once Upona time", "There was a crazy woman! There was a crazy woman! There was a crazy woman! There was a crazy woman! There was a crazy woman! There was a crazy woman! There was a crazy woman!"]
+            "name": "Not-So-Sweet Sixteen",
+            "content" : [" Many American girls spend years dreaming up ideas for their sweet sixteen. From giant balls to outdoor movies and even car shows, the ideas are endless.", "Some girls dream of wearing gowns fit for royalty with smiles on their faces."," Boys lining up, anticipating the chance to dance with her and her friends. Hands shaking as they thought up the perfect date with the birthday girl.", "Lights reflecting off the chandeliers, the vibrating of the floor as the music gets louder. Never staying still, dancing the night away.", " Lights reflecting off the chandeliers, the vibrating of the floor as the music gets louder. Never staying still, dancing the night away.","Not wanting to leave, but floating into their bed, not willing to end the night by undressing."," Hundreds of people there sending out their “happy birthday’ wishes, piles of beautiful presents."," I was one of those girls. But my sixteenth wasn’t anywhere near sweet."," There were no dresses, not even any smiles."," Boys were nowhere to be seen and certainly weren’t lining up to ask me on dates."," No lights danced along any special chandeliers. There was no music thrumming through the floors."," I spent the whole day still, never dancing."," Gratefully slinking into bed, eyes drifting around the room searching for a sign this wasn’t real."," My sixteenth birthday passed without a single wish of “happy birthday.”"
+            ]
         },
         {
             "id": "w2",

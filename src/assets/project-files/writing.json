@@ -1,3 +1,65 @@
 [
-    
+  {
+    "name": "writing",
+    "projects": [
+      {
+        "id": "w1",
+        "name": "Not-So-Sweet Sixteen",
+        "content": [
+          " Many American girls spend years dreaming up ideas for their sweet sixteen. From giant balls to outdoor movies and even car shows, the ideas are endless.",
+          "Some girls dream of wearing gowns fit for royalty with smiles on their faces.",
+          " Boys lining up, anticipating the chance to dance with her and her friends. Hands shaking as they thought up the perfect date with the birthday girl.",
+          "Lights reflecting off the chandeliers, the vibrating of the floor as the music gets louder. Never staying still, dancing the night away.",
+          " Lights reflecting off the chandeliers, the vibrating of the floor as the music gets louder. Never staying still, dancing the night away.",
+          "Not wanting to leave, but floating into their bed, not willing to end the night by undressing.",
+          " Hundreds of people there sending out their “happy birthday’ wishes, piles of beautiful presents.",
+          " I was one of those girls. But my sixteenth wasn’t anywhere near sweet.",
+          " There were no dresses, not even any smiles.",
+          " Boys were nowhere to be seen and certainly weren’t lining up to ask me on dates.",
+          " No lights danced along any special chandeliers. There was no music thrumming through the floors.",
+          " I spent the whole day still, never dancing.",
+          " Gratefully slinking into bed, eyes drifting around the room searching for a sign this wasn’t real.",
+          " My sixteenth birthday passed without a single wish of “happy birthday.”"
+        ],
+        "type": "Creative Nonfiction"
+      },
+      {
+        "id": "w2",
+        "name": "A Needed Miracle",
+        "content": [
+          " The register popped open, the screen showing the amount of change I owed the customer. My tired hands struggled to count out the coins, but eventually I fumbled through and finished the transaction.",
+          " I was relieved to peek at the clock to see 1:50. Only one more hour before I could go home for the afternoon.",
+          " Out of nowhere came a strange sound. The store next to us had been doing construction, so I assumed the noise was someone dropping a ladder.",
+          " I looked to my coworkers in confusion, hoping they could provide answers to my unasked question. We heard the sound again. Then two more times.",
+          " Realization hit, forcing me to the ground.",
+          " Those sounds were gunshots. And they were fired from just outside our store.",
+          " I was frozen in fear, unable to move to a safer place. The children in our store screamed,causing more fear. I had never felt like I was in this much danger.",
+          " One of my coworkers bravely shouted for everyone to get in the back. Her demand snapped me out of my frozen state, and I was able to escape to safety.",
+          " We ran from the store, across the busy road, and into a hotel parking lot. We all called our families, then gathered around to keep each other warm.",
+          " That’s when we met Beth.",
+          " Her short stature and sweet smile reminded us of our grandmothers, the bold “What Would Jesus Do” pin displaying her strong faith.",
+          " When the shooting happened, she had been walking through the mall looking for a dress to wear to her wedding that would take place in a few months. At the blasts of the shots, she rushed into the nearest store, which just happened to be ours.",
+          " In the hotel parking lot, she hugged us all, telling us we were strong and that we were very helpful in getting all our customers to safety.",
+          " Beth prayed with us, asking for comfort and safety.",
+          " Standing there, hugging in a freezing parking lot, we felt safe thanks to Beth and her faith. Beth walked all the employees over to the nearby IHOP, and bought everyone coffee and hot chocolate, staying even though she didn’t have to.",
+          " Beth was a miracle. We were all terrified, needing someone to comfort us. She was there, providing so much more than we could even hope for."
+        ],
+        "type": "Creative Nonfiction"
+      },
+
+      {
+        "id": "w3",
+        "name": "Fly on the Wall",
+        "content": [" Delicate snowflakes fell into the silent parking lot. A slight breeze danced along the bare trees, blowing the soft, powdering snow into the light of the street lamps.", " The moonlight reflected off the rainbow of empty cars in the parking lot.", " Only one window in the buildings surrounding the parking lot had light pouring out.", " A noisy white car entered the scene, destroying the light dusting of snow, interrupting the natural music of the night.", " The car moved slowly through the parking lot, stopping by every few cars for a moment each, then resuming the slow laps. The car continued around the parking lot, completing at least three of the pause-filled laps before eventually parking in an empty stall near the building. The driver stayed in the car, looking up at the windows facing him, particularly the one with a light on.", " After a few minutes of staring, the driver shut off the engine, allowing the night’s music to resume."," The driver slowly exited his car, continuing to look up at the window."," He made his way to the sidewalk and began the short journey through the cold to the entrance.", " Every few steps, he turned, watching the window with the light on.", " Maybe he could sense the two girls watching him, making up stories of why he was arriving home hours after curfew."
+        ],
+        "type": "Creative Nonfiction"
+      },
+      {
+        "id": "w4",
+        "name": "First Glimpse",
+        "content": [],
+        "type": "Creative Nonfiction"
+      }
+    ]
+  }
 ]
