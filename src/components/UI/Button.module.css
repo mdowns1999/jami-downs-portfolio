@@ -1,6 +1,6 @@
 .button {
     border: 1px solid black;
-    background-color: var(--accentOne, #2e8b57);
+    background-color: var(--accentOne, #5a7e5d);
     border-radius: 10px;
     padding: 1em;
     margin: 15px auto;
@@ -9,15 +9,15 @@
     font-size: 18px;
     transition: 0.25s;
     display: block;
-    color:black;
+    color:white;
   }
   
   .button:hover {
-    background-color: var(--accentTwo, #f9dc66);
+    background-color: var(--primaryColor, #5a7e5d);
     cursor: pointer;
   }
   
   .button:active {
-    background-color: #fe938c;
+    background-color: var(--accentTwo, #AA8B56);
   }
   

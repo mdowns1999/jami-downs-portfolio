@@ -1,8 +1,8 @@
 :root {
-  --primaryColor: #395144;
-  --secondaryColor: #4E6C50;
-  --accentOne: #AA8B56;
-  --accentTwo: #F0EBCE;
+  --primaryColor: #5a7e5d;
+  --secondaryColor: #F0EBCE;
+  --accentOne: #5a7e5d;
+  --accentTwo: #AA8B56;
   /* --accentTwo: #F0EBCE; */
   /* --primaryColor: #395144; */
 }
@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  /* background-color: #f4f4f4; */
+  background-color: var(--secondaryColor, #F0EBCE);
 }
 
 
@@ -44,7 +44,7 @@ h4 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 p {
@@ -78,4 +78,17 @@ nav a{
   margin: 2em auto;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+}
+
+.btnBox {
+  max-width: 300px;
+  margin: 1em auto;
+}
+
+.btnBox button {
+  margin: 0;
+}
+
+.btnBox a{
+  color:white;
 }

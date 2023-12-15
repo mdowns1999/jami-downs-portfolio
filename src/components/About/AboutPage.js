@@ -68,7 +68,7 @@ const AboutPage = () => {
                 different marketing strategies.
               </p>
 
-              <div className={classes.btnBox}>
+              <div className="btnBox">
                 <Button>
                   <a href={resume} target="_blank" rel="noreferrer">
                     See Resume

@@ -65,7 +65,7 @@ const HomePage = () => {
               hope you enjoy looking through them.
             </p>
 
-            <div className={classes.btnBox}>
+            <div className="btnBox">
               <Button>
                 <Link to="/projects">See Projects</Link>
               </Button>

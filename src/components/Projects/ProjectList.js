@@ -3,11 +3,13 @@ import classes from "./ProjectList.module.css";
 import ProjectCard from "./ProjectCard";
 import file from "../../assets/project-files/projects.json"
 import Button from "../UI/Button";
+import resume from "../../assets/files/jamiResume.pdf"
 
 const ProjectList = () => {
   const params = useParams();
   let title = params.name.charAt(0).toUpperCase() + params.name.slice(1);
 
+  let test = resume;
   console.log(file)
   
   const PROJECTS = file;
@@ -25,13 +27,13 @@ const ProjectList = () => {
         {projects.map((project) => {
           return (
             <li key={project.id}>
-              <ProjectCard link={project.id} name={project.name} />
-            </li>
+            <ProjectCard link={project.id} name={project.name} />
+          </li>
           );
         })}
       </ul>
 
-      <div className={classes.btnBox}>
+      <div className="btnBox">
               <Button>
                 <Link to="/projects">Back to Projects</Link>
               </Button>
@@ -41,3 +43,7 @@ const ProjectList = () => {
 };
 
 export default ProjectList;
+{/* <li key={project.id}>
+              {project.type === "Email"}
+              <ProjectCard link={project.id} name={project.name} />
+            </li> */}

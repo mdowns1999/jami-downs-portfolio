@@ -30,7 +30,7 @@ if(params.name === "writing"){
 
     return <>
     {content}
-    <div className={classes.btnBox}>
+    <div className="btnBox">
               <Button>
                 <Link to={`/projects/` + params.name}>Back to {name}</Link>
               </Button>

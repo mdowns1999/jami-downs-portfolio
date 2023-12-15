@@ -112,10 +112,10 @@
     grid-row: 1/2;
   }
   
-  .skillsContent button {
+  /* .skillsContent button {
     width: 50%;
   }
-  
+   */
   .aboutBox img {
     justify-self: center;
     align-self: center;
@@ -124,20 +124,10 @@
   
   .homeWrapper,
   .skilsWrapper {
-    background-color: var(--accentTwo);
+    background-color: var(--secondaryColor, #F0EBCE);
     padding: 5px;
   }
-  .welcomeBox .btnBox {
-    max-width: 200px;
-  }
-  
-  .btnBox button {
-    margin: 0;
-  }
-  
-  .btnBox a{
-    color:black;
-  }
+
   @media screen and (min-width: 768px) {
     .welcomeBox {
       gap: 1em;

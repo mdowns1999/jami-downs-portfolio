@@ -9,10 +9,11 @@ const PhotoDetail = (props) => {
         let title = projects[0].name;
         let content = projects[0].description;
         console.log(projects[0].photos[0])
-        let images = projects[0].photos.map((photo) => (
+        let images = projects[0].photos.map((photo, index) => (
            <img
             src={require("../../assets/images/" + photo.image)}
             alt={photo.description}
+            key={"img" + index}
           ></img>
         ))
 

@@ -35,6 +35,13 @@
             "link": "https://www.youtube.com/embed/rvp9Nhm68x8?si=XpT7rl4gMwd7-EuW",
             "description": "Description goes here!!!!!!",
             "type": "Social"
+          },
+          {
+            "id": "m3",
+            "name": "PDF TEST",
+            "link": "../../assets/files/jamiResume.pdf",
+            "description": "Description goes here!!!!!!",
+            "type": "Email"
           }
     ]
 },
