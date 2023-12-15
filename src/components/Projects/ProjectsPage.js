@@ -6,17 +6,14 @@ const ProjectsPage = () => {
     {
       id: "1",
       name: "photography",
-      image: require("../../assets/images/blank.png"),
     },
     {
       id: "2",
       name: "writing",
-      image: require("../../assets/images/blank.png"),
     },
     {
       id: "3",
       name: "marketing",
-      image: require("../../assets/images/blank.png"),
     },
   ];
   return (

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "marketing",
+        "projects": [
+            {
+                "id": "m1",
+                "name": "Going on a Walk",
+                "link": "https://www.youtube.com/embed/W40REQBKK3g?si=mMOB-OmJQxJ5Iyf4",
+                "description": "This is the video of me walking to a nearby church. Reach: 439 | Impressions: 485",
+                "type": "Social"
+              },
+              {
+                "id": "m2",
+                "name": "Upgrade Your Shoes",
+                "link": "https://www.youtube.com/embed/W40REQBKK3g?si=mMOB-OmJQxJ5Iyf4",
+                "description": "This is the video of me kicking the camera. Links Clicked: 142 | Click Through Rate: 8.81% | Reach: 1,449 | Impressions: 1,844",
+                "type": "Social"
+              },
+              {
+                "id": "m3",
+                "name": "Road Bum Opt-in Email",
+                "link": null,
+                "description": null,
+                "type": "Email"
+              },
+              {
+                "id": "m4",
+                "name": "Road Bum About Us Email",
+                "link": null,
+                "description": null,
+                "type": "Email"
+              },
+              {
+                "id": "m5",
+                "name": "Road Bum Newsletter",
+                "link": null,
+                "description": null,
+                "type": "Email"
+              },
+              {
+                "id": "m6",
+                "name": "Snake River Recreation Email",
+                "link": null,
+                "description": null,
+                "type": "Email"
+              }
+        ]
+    }
+]

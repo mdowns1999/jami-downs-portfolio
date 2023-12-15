@@ -1,51 +1,5 @@
 [
 {
-    "name": "photography",
-    "projects": [
-        {
-            "id": "ph1",
-            "name": "Poppin Soda",
-            "description": "This website was a project I created for my senior project.  The goal of this project was to learn something I have never done up to that point in my schooling.  I wanted to earn React, so I found a course online and started learning React a month before even beginning my project.  The site is a mock of a soda business website.  It has a functional cart, checkout, and review section.  Feel free to play around with it!",
-            "photos": [
-              {
-                "image": "blank.png",
-                "description": "A blank photo"
-              },
-              {
-                "image": "blank.png",
-                "description": "A blank photo"
-              }
-            ]
-          }
-    ]
-},
-{
-    "name": "marketing",
-    "projects": [
-        {
-            "id": "m1",
-            "name": "Poppin Soda",
-            "link": "https://www.youtube.com/embed/W40REQBKK3g?si=mMOB-OmJQxJ5Iyf4",
-            "description": "Description goes here!!!!!!",
-            "type": "Social"
-          },
-          {
-            "id": "m2",
-            "name": "Poppin Soda 2",
-            "link": "https://www.youtube.com/embed/rvp9Nhm68x8?si=XpT7rl4gMwd7-EuW",
-            "description": "Description goes here!!!!!!",
-            "type": "Social"
-          },
-          {
-            "id": "m3",
-            "name": "PDF TEST",
-            "link": "../../assets/files/jamiResume.pdf",
-            "description": "Description goes here!!!!!!",
-            "type": "Email"
-          }
-    ]
-},
-{
     "name": "writing",
     "projects": [
         {
@@ -59,5 +13,216 @@
             "content" : ["Once Upona time", "In a Galaxy Far Far away"]
         }
     ]
-}
+},
+{
+  "name": "photography",
+  "projects": [
+    {
+      "id": "ph1",
+      "name": "Aperture",
+      "description": "This week I explored the world of aperture. I experimented with both wide and narrow aperture and discovered that I prefer wide aperture. For these pictures, I woke up super early. Okay, I actually slept in a little, but it was still really cold outside. I was home for the weekend, visiting my family, so all of these pictures were taken in my parent’s backyard. I would go through and name all of my models, but my family has about 17 chickens and I don’t know all of their names. I was out taking pictures for just over an hour, only going in because my fingers were numb. I used Adobe Bridge and Photoshop to edit these pictures. I hope y’all like them!",
+      "photos": [
+        {
+          "image": "blank.png",
+          "description": "Man just chilling on bench."
+        },
+        {
+          "image": "blank.png",
+          "description": "A man smiling on a swing"
+        },
+        {
+          "image": "blank.png",
+          "description": "A bunch of chickens in a yard"
+        },
+        {
+          "image": "blank.png",
+          "description": "Two Horses in a pasture"
+        }
+      ]
+    },
+
+    {
+      "id": "ph2",
+      "name": "Excursion 1/2 – Creative",
+      "description": "This past weekend, we went on a trip to Island Park, ID. There, we took many different pictures. The ones below are more on the creative side. All of these pictures were taken at the same place, all on February 3rd, but all throughout the day. My personal favorites from these are the ones of the fishing equipment and the truck. These pictures were taken using a technique called Light Painting. I set the camera up on a tripod and set it to a long exposure, the turned off all of the lights. I then used a flashlight to paint the parts I wanted to have visible. It truly is a fun technique and it is hard to go wrong!",
+      "photos": [
+        {
+          "image": "blank.png",
+          "description": "A Bowl of Berries"
+        },
+        {
+          "image": "blank.png",
+          "description": "A Cowboy hat on a table."
+        },
+        {
+          "image": "blank.png",
+          "description": "Fishing Gear"
+        },
+        {
+          "image": "blank.png",
+          "description": "A Red Toy truck on an American flag"
+        },
+        {
+          "image": "blank.png",
+          "description": "A bottle of fragrance"
+        }
+      ]
+    },
+
+    {
+      "id": "ph3",
+      "name": "Excursion 2/2 – Portraits",
+      "description": "While in Island Park, I had the chance to photograph some wonderful models. These pictures were so fun to take! I had a blast with these models and here are some of my favorite pictures of them! I also got to experiment with using flashes.",
+      "photos": [
+        {
+          "image": "blank.png",
+          "description": "Man by the fireplace"
+        },
+        {
+          "image": "blank.png",
+          "description": "Woman by the river."
+        },
+        {
+          "image": "blank.png",
+          "description": "Couple holding each other"
+        },
+        {
+          "image": "blank.png",
+          "description": "Man on a horse"
+        },
+        {
+          "image": "blank.png",
+          "description": "Woman sowing"
+        },
+        {
+          "image": "blank.png",
+          "description": "Two men by the river"
+        },
+        {
+          "image": "blank.png",
+          "description": "Cowboy holding a rifle"
+        },
+        {
+          "image": "blank.png",
+          "description": "Cowboy siting by the fireplace"
+        },
+        {
+          "image": "blank.png",
+          "description": "Man smiling by river"
+        },
+        {
+          "image": "blank.png",
+          "description": "Group standing by the river"
+        }
+      ]
+    },
+
+    {
+      "id": "ph4",
+      "name": "Macro",
+      "description": "This week I had the chance to explore the world of Macro photography. Using filters designed to capture large details on close-up objects, I took many different pictures. Some turned out great, others not so great. I used different colored lights and sprayed water to make my objects stand out and to add more detail to them. The six images below are my personal favorites from this exploration.",
+      "photos": [
+        {
+          "image": "blank.png",
+          "description": "Fishing Pole"
+        },
+        {
+          "image": "blank.png",
+          "description": "Rasberrys"
+        },
+        {
+          "image": "blank.png",
+          "description": "A Pink Rose"
+        },
+        {
+          "image": "blank.png",
+          "description": "Pile of wood"
+        },
+        {
+          "image": "blank.png",
+          "description": "A Red rose with a diamond ring"
+        },
+        {
+          "image": "blank.png",
+          "description": "A diamond "
+        }
+      ]
+    },
+
+    {
+      "id": "ph5",
+      "name": "Top 5",
+      "description": "I had a hard time picking my five best photos from this semester. I wanted to be sure to pick a variety of styles but still choose my best work. I finally narrowed it down to the five images below. I believe that these are my best photos for many reasons. One is that they are pretty. I asked my fiancé what he thought (he knows nothing about photography) and he thought that these ones looked good. I also think that they demonstrate all that I have learned this semester. These images required a lot of editing and they required knowledge about how to actually take the images. Some of these are product photography taken with a prime lens, others are portraits, some are from unique angles, and my favorite one is light painting. These are all skills that I did not have before this semester and I am glad I learned them. I hope you guys like these pictures!",
+      "photos": [
+        {
+          "image": "blank.png",
+          "description": "Woman sowing"
+        },
+        {
+          "image": "blank.png",
+          "description": "A Bowl of Berries"
+        },
+        {
+          "image": "blank.png",
+          "description": "Man smiling by river"
+        },
+        {
+          "image": "blank.png",
+          "description": "LDS Rexburg Temple"
+        },
+        {
+          "image": "blank.png",
+          "description": "A Red Toy truck on an American flag"
+        }
+      ]
+    }
+  ]
+},
+  {
+      "name": "marketing",
+      "projects": [
+          {
+              "id": "m1",
+              "name": "Going on a Walk",
+              "link": "https://www.youtube.com/embed/W40REQBKK3g?si=mMOB-OmJQxJ5Iyf4",
+              "description": "This is the video of me walking to a nearby church. Reach: 439 | Impressions: 485",
+              "type": "Social"
+            },
+            {
+              "id": "m2",
+              "name": "Upgrade Your Shoes",
+              "link": "https://www.youtube.com/embed/W40REQBKK3g?si=mMOB-OmJQxJ5Iyf4",
+              "description": "This is the video of me kicking the camera. Links Clicked: 142 | Click Through Rate: 8.81% | Reach: 1,449 | Impressions: 1,844",
+              "type": "Social"
+            },
+            {
+              "id": "m3",
+              "name": "Road Bum Opt-in Email",
+              "link": null,
+              "description": null,
+              "type": "Email"
+            },
+            {
+              "id": "m4",
+              "name": "Road Bum About Us Email",
+              "link": null,
+              "description": null,
+              "type": "Email"
+            },
+            {
+              "id": "m5",
+              "name": "Road Bum Newsletter",
+              "link": null,
+              "description": null,
+              "type": "Email"
+            },
+            {
+              "id": "m6",
+              "name": "Snake River Recreation Email",
+              "link": null,
+              "description": null,
+              "type": "Email"
+            }
+      ]
+  }
 ]

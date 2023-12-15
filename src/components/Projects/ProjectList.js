@@ -27,7 +27,7 @@ const ProjectList = () => {
       } else {
         return (
           <li key={project.id}>
-            <a href={getFile(project.name)} target="_blank" rel="noreferrer">
+            <a href={getFile(project.id)} target="_blank" rel="noreferrer">
               <Card>{project.name}</Card>
             </a>
           </li>
