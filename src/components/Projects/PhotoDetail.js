@@ -2,14 +2,14 @@ import getProjects from "../../helper/getProjects";
 import classes from "./ProjectDetailPage.module.css";
 
 const PhotoDetail = (props) => {
+  console.log("PROPS ID " + props.id)
   let projects = getProjects(props.name);
-  console.log(projects);
+   console.log(projects);
   let project = projects.filter((project) => project.id === props.id);
   console.log(project);
-  let title = projects[0].name;
-  let content = projects[0].description;
-  console.log(projects[0].photos[0]);
-  let images = projects[0].photos.map((photo, index) => (
+  let title = project[0].name;
+  let content = project[0].description;
+  let images = project[0].photos.map((photo, index) => (
     <img
       src={require("../../assets/images/" + photo.image)}
       alt={photo.description}
