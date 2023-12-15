@@ -1,4 +1,4 @@
-.projectCard {
+.card {
   width: 300px;
   height: 250px;
   border: 1px solid black;
@@ -10,6 +10,6 @@
   transition: 0.25s;
 }
 
-.projectCard:hover {
+.card:hover {
   background-color: var(--accentOne);
 }

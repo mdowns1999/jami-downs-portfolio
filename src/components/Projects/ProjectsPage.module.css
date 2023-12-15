@@ -1,26 +1,9 @@
-.subjects{
-    max-width: 1200px;
-    margin: 3em auto;
-display: flex;
-flex-wrap: wrap;
-gap: 2em;
-justify-content: space-evenly;
-padding: 10px;
+.subjects {
+  max-width: 1200px;
+  margin: 3em auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding: 10px;
 }
-
-/* .subjectBox{
-    width: 300px;
-    height: 250px;
-    border: 1px solid black;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 250px;
-    background-color: antiquewhite;
-    border-radius: 10px;
-   
-}
-
-
-.subjectBox:hover{
-    background-color:red;
-} */

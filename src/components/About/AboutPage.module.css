@@ -8,7 +8,8 @@
   grid-template-columns: 1fr;
 }
 
-.aboutBox h1, .skillsBox h1{
+.aboutBox h1,
+.skillsBox h1 {
   margin-bottom: 1em;
 }
 
@@ -42,8 +43,8 @@
   margin: 0;
 }
 
-.btnBox a{
-  color:white
+.btnBox a {
+  color: white;
 }
 
 .text {
@@ -56,9 +57,7 @@
   }
 }
 
-
 @media screen and (min-width: 1000px) {
-
   .aboutBox,
   .skillsBox {
     gap: 2em;
@@ -76,5 +75,3 @@
     width: 80%;
   }
 }
-
-

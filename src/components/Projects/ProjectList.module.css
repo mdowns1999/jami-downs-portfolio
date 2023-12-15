@@ -1,23 +1,10 @@
-.projectsList{
-    max-width: 1200px;
-    margin: 3em auto;
-display: flex;
-flex-wrap: wrap;
-gap: 2em;
-justify-content: space-evenly;
-padding: 10px;
-list-style: none;
+.projectsList {
+  max-width: 1200px;
+  margin: 3em auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding: 10px;
+  list-style: none;
 }
-
-/* .btnBox {
-    max-width: 250px;
-    margin: 1em auto;
-  }
-  
-  .btnBox button {
-    margin: 0;
-  }
-  
-  .btnBox a{
-    color:white;
-  } */

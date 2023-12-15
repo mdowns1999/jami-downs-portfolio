@@ -27,11 +27,13 @@ const ProjectsPage = () => {
 
       <section className={classes.subjects}>
         {projectSubjects.map((project) => {
-            return <ProjectCard
-            key={project.id}
-            link={project.name}
-            name={project.name}
+          return (
+            <ProjectCard
+              key={project.id}
+              link={project.name}
+              name={project.name}
             />
+          );
         })}
       </section>
     </div>
