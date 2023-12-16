@@ -2,6 +2,9 @@ import classes from "./ProjectsPage.module.css";
 import ProjectCard from "./ProjectCard";
 
 const ProjectsPage = () => {
+  //Make Sure we are at the top of the page!
+  window.scrollTo(0, 0);
+
   let projectSubjects = [
     {
       id: "1",

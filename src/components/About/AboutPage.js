@@ -3,6 +3,8 @@ import resume from "../../assets/files/jamiResume.pdf";
 import classes from "./AboutPage.module.css";
 
 const AboutPage = () => {
+  //Make Sure we are at the top of the page!
+  window.scrollTo(0, 0);
   return (
     <>
       <div className={classes.about}>

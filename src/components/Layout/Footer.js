@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className={classes.instagramBox}>
           <a
-            href="https://www.linkedin.com/in/jami-knight/"
+            href="https://www.instagram.com/photographyby_jami/"
             rel="noreferrer"
             target="_blank"
           >

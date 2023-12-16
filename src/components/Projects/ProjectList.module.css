@@ -8,3 +8,15 @@
   padding: 10px;
   list-style: none;
 }
+
+.projectFilterBar {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  border-bottom: 2px solid black;
+}
