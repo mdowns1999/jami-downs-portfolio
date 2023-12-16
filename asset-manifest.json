@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jami-downs-portfolio/static/css/main.e00f6114.css",
-    "main.js": "/jami-downs-portfolio/static/js/main.b50647c2.js",
+    "main.css": "/jami-downs-portfolio/static/css/main.78f4131a.css",
+    "main.js": "/jami-downs-portfolio/static/js/main.d6c629ba.js",
     "static/js/787.9640a47a.chunk.js": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js",
     "static/media/RBAbout.pdf": "/jami-downs-portfolio/static/media/RBAbout.7586aa396d17081ea75b.pdf",
     "static/media/RBNews.pdf": "/jami-downs-portfolio/static/media/RBNews.59a4408fe4a920400d73.pdf",
@@ -9,6 +9,7 @@
     "static/media/SRRecreate.pdf": "/jami-downs-portfolio/static/media/SRRecreate.168f2dad61e8e096911e.pdf",
     "static/media/horses.jpg": "/jami-downs-portfolio/static/media/horses.5be8f3b02ad03342918c.jpg",
     "static/media/group.jpg": "/jami-downs-portfolio/static/media/group.5b21b7f3fea476ba6de7.jpg",
+    "static/media/skillsPhoto.jpg": "/jami-downs-portfolio/static/media/skillsPhoto.fd3ff8f706f3d9a9bcc0.jpg",
     "static/media/chicken.jpg": "/jami-downs-portfolio/static/media/chicken.7cd093c149bb91e02430.jpg",
     "static/media/twoMen.jpg": "/jami-downs-portfolio/static/media/twoMen.85a1bcb441f06318e319.jpg",
     "static/media/gunMan.jpg": "/jami-downs-portfolio/static/media/gunMan.33b79774331b49ba3366.jpg",
@@ -24,6 +25,7 @@
     "static/media/manSmiling.jpg": "/jami-downs-portfolio/static/media/manSmiling.409bcd887922095cc4cd.jpg",
     "static/media/gear.jpg": "/jami-downs-portfolio/static/media/gear.0ffd949d9e741e1ff348.jpg",
     "static/media/truck.jpg": "/jami-downs-portfolio/static/media/truck.e1a3010f87277294b7d8.jpg",
+    "static/media/aboutJami.jpg": "/jami-downs-portfolio/static/media/aboutJami.35227b8050d2f2f8c53a.jpg",
     "static/media/cowBoy.jpg": "/jami-downs-portfolio/static/media/cowBoy.c0a89c1ea861efc4d086.jpg",
     "static/media/ice.jpg": "/jami-downs-portfolio/static/media/ice.fcb3905cafd828b59bd1.jpg",
     "static/media/hat.jpg": "/jami-downs-portfolio/static/media/hat.1c0c8414def275a0c568.jpg",
@@ -34,13 +36,15 @@
     "static/media/jamiResume.pdf": "/jami-downs-portfolio/static/media/jamiResume.d507db140dfa7bd04104.pdf",
     "static/media/product.jpg": "/jami-downs-portfolio/static/media/product.6e195501fee54c79acec.jpg",
     "static/media/instaGramLogoWhite.png": "/jami-downs-portfolio/static/media/instaGramLogoWhite.4a1481f4e06bd5d6fe75.png",
+    "static/media/jamiLogo.png": "/jami-downs-portfolio/static/media/jamiLogo.aef463d8e44a627bd44b.png",
+    "static/media/jamiIcon.png": "/jami-downs-portfolio/static/media/jamiIcon.4af46931d0a80d18a916.png",
     "index.html": "/jami-downs-portfolio/index.html",
-    "main.e00f6114.css.map": "/jami-downs-portfolio/static/css/main.e00f6114.css.map",
-    "main.b50647c2.js.map": "/jami-downs-portfolio/static/js/main.b50647c2.js.map",
+    "main.78f4131a.css.map": "/jami-downs-portfolio/static/css/main.78f4131a.css.map",
+    "main.d6c629ba.js.map": "/jami-downs-portfolio/static/js/main.d6c629ba.js.map",
     "787.9640a47a.chunk.js.map": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e00f6114.css",
-    "static/js/main.b50647c2.js"
+    "static/css/main.78f4131a.css",
+    "static/js/main.d6c629ba.js"
   ]
 }
