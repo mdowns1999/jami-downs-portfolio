@@ -44,7 +44,7 @@ const AboutPage = () => {
           </div>
 
           <img
-            src={require("../../assets/images/blank.png")}
+            src={require("../../assets/images/aboutJami.jpg")}
             alt="Jami Downs"
           ></img>
         </section>
@@ -52,7 +52,7 @@ const AboutPage = () => {
         <div className={classes.skilsWrapper}>
           <section className={classes.skillsBox}>
             <img
-              src={require("../../assets/images/blank.png")}
+              src={require("../../assets/images/skillsPhoto.jpg")}
               alt="Jami Downs"
             ></img>
             <div className={classes.skillsContent}>
