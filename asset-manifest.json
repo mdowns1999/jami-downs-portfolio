@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jami-downs-portfolio/static/css/main.f46437d7.css",
-    "main.js": "/jami-downs-portfolio/static/js/main.35661e94.js",
+    "main.js": "/jami-downs-portfolio/static/js/main.67085994.js",
     "static/js/787.9640a47a.chunk.js": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js",
     "static/media/RBAbout.pdf": "/jami-downs-portfolio/static/media/RBAbout.7586aa396d17081ea75b.pdf",
     "static/media/RBNews.pdf": "/jami-downs-portfolio/static/media/RBNews.59a4408fe4a920400d73.pdf",
@@ -26,6 +26,7 @@
     "static/media/gear.jpg": "/jami-downs-portfolio/static/media/gear.0ffd949d9e741e1ff348.jpg",
     "static/media/truck.jpg": "/jami-downs-portfolio/static/media/truck.e1a3010f87277294b7d8.jpg",
     "static/media/aboutJami.jpg": "/jami-downs-portfolio/static/media/aboutJami.35227b8050d2f2f8c53a.jpg",
+    "static/media/temple.jpg": "/jami-downs-portfolio/static/media/temple.67c60576c3b2baa65068.jpg",
     "static/media/cowBoy.jpg": "/jami-downs-portfolio/static/media/cowBoy.c0a89c1ea861efc4d086.jpg",
     "static/media/ice.jpg": "/jami-downs-portfolio/static/media/ice.fcb3905cafd828b59bd1.jpg",
     "static/media/hat.jpg": "/jami-downs-portfolio/static/media/hat.1c0c8414def275a0c568.jpg",
@@ -40,11 +41,11 @@
     "static/media/jamiIcon.png": "/jami-downs-portfolio/static/media/jamiIcon.4af46931d0a80d18a916.png",
     "index.html": "/jami-downs-portfolio/index.html",
     "main.f46437d7.css.map": "/jami-downs-portfolio/static/css/main.f46437d7.css.map",
-    "main.35661e94.js.map": "/jami-downs-portfolio/static/js/main.35661e94.js.map",
+    "main.67085994.js.map": "/jami-downs-portfolio/static/js/main.67085994.js.map",
     "787.9640a47a.chunk.js.map": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f46437d7.css",
-    "static/js/main.35661e94.js"
+    "static/js/main.67085994.js"
   ]
 }
