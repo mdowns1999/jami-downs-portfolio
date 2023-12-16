@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jami-downs-portfolio/static/css/main.78f4131a.css",
-    "main.js": "/jami-downs-portfolio/static/js/main.d6c629ba.js",
+    "main.css": "/jami-downs-portfolio/static/css/main.f46437d7.css",
+    "main.js": "/jami-downs-portfolio/static/js/main.35661e94.js",
     "static/js/787.9640a47a.chunk.js": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js",
     "static/media/RBAbout.pdf": "/jami-downs-portfolio/static/media/RBAbout.7586aa396d17081ea75b.pdf",
     "static/media/RBNews.pdf": "/jami-downs-portfolio/static/media/RBNews.59a4408fe4a920400d73.pdf",
@@ -39,12 +39,12 @@
     "static/media/jamiLogo.png": "/jami-downs-portfolio/static/media/jamiLogo.aef463d8e44a627bd44b.png",
     "static/media/jamiIcon.png": "/jami-downs-portfolio/static/media/jamiIcon.4af46931d0a80d18a916.png",
     "index.html": "/jami-downs-portfolio/index.html",
-    "main.78f4131a.css.map": "/jami-downs-portfolio/static/css/main.78f4131a.css.map",
-    "main.d6c629ba.js.map": "/jami-downs-portfolio/static/js/main.d6c629ba.js.map",
+    "main.f46437d7.css.map": "/jami-downs-portfolio/static/css/main.f46437d7.css.map",
+    "main.35661e94.js.map": "/jami-downs-portfolio/static/js/main.35661e94.js.map",
     "787.9640a47a.chunk.js.map": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78f4131a.css",
-    "static/js/main.d6c629ba.js"
+    "static/css/main.f46437d7.css",
+    "static/js/main.35661e94.js"
   ]
 }
