@@ -8,15 +8,15 @@ const ProjectsPage = () => {
   let projectSubjects = [
     {
       id: "1",
-      name: "photography",
+      name: "marketing",
     },
     {
       id: "2",
-      name: "writing",
+      name: "photography",
     },
     {
       id: "3",
-      name: "marketing",
+      name: "writing",
     },
   ];
   return (
