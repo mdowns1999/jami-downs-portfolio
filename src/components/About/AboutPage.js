@@ -71,11 +71,9 @@ const AboutPage = () => {
               </p>
 
               <div className="btnBox">
-                <Button>
-                  <a href={resume} target="_blank" rel="noreferrer">
-                    See Resume
-                  </a>
-                </Button>
+                <a href={resume} target="_blank" rel="noreferrer">
+                  <Button>See Resume</Button>
+                </a>
               </div>
             </div>
           </section>
