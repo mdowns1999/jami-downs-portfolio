@@ -24,9 +24,9 @@ const HomePage = () => {
             </p>
 
             <div className="btnBox">
-              <Button>
-                <Link to="/projects">See Projects</Link>
-              </Button>
+              <Link to="/projects">
+                <Button>See Projects</Button>
+              </Link>
             </div>
           </section>
         </div>

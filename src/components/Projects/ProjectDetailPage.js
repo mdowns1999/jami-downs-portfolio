@@ -21,9 +21,11 @@ const ProjectDetailPage = () => {
     <>
       {content}
       <div className="btnBox">
+      <Link to={`/projects/` + params.name}>
         <Button>
-          <Link to={`/projects/` + params.name}>Back to {name}</Link>
+          Back to {name}
         </Button>
+        </Link>
       </div>
     </>
   );

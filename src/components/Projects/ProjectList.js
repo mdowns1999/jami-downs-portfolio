@@ -1,12 +1,12 @@
 import { Link, useParams } from "react-router-dom";
 import classes from "./ProjectList.module.css";
 import ProjectCard from "./ProjectCard";
-import file from "../../assets/project-files/projects.json";
 import Button from "../UI/Button";
 import Card from "../UI/Card";
 import getFile from "../../helper/getFile";
 import { useState } from "react";
 import RadioButton from "../UI/RadioButton";
+import getProjects from "../../helper/getProjects";
 
 const ProjectList = () => {
   //Make Sure we are at the top of the page!
@@ -16,13 +16,11 @@ const ProjectList = () => {
   let title = params.name.charAt(0).toUpperCase() + params.name.slice(1);
   let projectItems;
 
-  const PROJECTS = file;
-  let projectList = PROJECTS.filter(
-    (category) => category.name === params.name
-  );
-  let projects = projectList[0].projects;
+  const PROJECTS = getProjects(params.name)
+  let projects = PROJECTS
 
-  function getItems(projects) {
+//generate the cards.  The email card (in the else statement) is special becuase it loads PDF's
+function generateCards(projects) {
     return projects.map((project) => {
       if (project.type !== "Email") {
         return (
@@ -42,6 +40,7 @@ const ProjectList = () => {
     });
   }
 
+  //For the writing section, filter the projects by value
   let filteredProjects = [];
   let SKILLS = [
     { id: "s0", name: "All" },
@@ -58,11 +57,8 @@ const ProjectList = () => {
     filteredProjects = projects;
   }
 
-  if (params.name !== "writing") {
-    projectItems = getItems(projects);
-  } else {
-    projectItems = getItems(filteredProjects);
-  }
+//Put the content into cards
+  projectItems = generateCards(filteredProjects);
 
   return (
     <div className={classes.category}>

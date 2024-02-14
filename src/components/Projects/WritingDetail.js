@@ -3,6 +3,7 @@ import classes from "./ProjectDetailPage.module.css";
 
 const WritingDetail = (props) => {
   let projects = getProjects(props.name);
+  console.log(projects)
   let project = projects.filter((project) => project.id === props.id);
   let title = project[0].name;
   let content = project[0].content.map((paragraph, index) => (
