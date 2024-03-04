@@ -83,9 +83,11 @@ function generateCards(projects) {
       <ul className={classes.projectsList}>{projectItems}</ul>
 
       <div className="btnBox">
+      <Link to="/projects">
         <Button>
-          <Link to="/projects">Back to Projects</Link>
+          Back to Projects
         </Button>
+       </Link>
       </div>
     </div>
   );

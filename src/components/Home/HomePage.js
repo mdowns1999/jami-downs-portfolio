@@ -15,7 +15,7 @@ const HomePage = () => {
             <h1>My name is Jami Downs</h1>
 
             <p className={classes.text}>
-              Hello! My name is Jami Downs and I am a current Sophomore at
+              Hello! My name is Jami Downs and I am a student at
               Brigham Young University Idaho. I am studying Communications with
               an emphasis in Digital and Social Media. The projects shown on
               this website are a combination of the many assignments I completed
