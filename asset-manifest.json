@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jami-downs-portfolio/static/css/main.f46437d7.css",
-    "main.js": "/jami-downs-portfolio/static/js/main.67085994.js",
+    "main.css": "/jami-downs-portfolio/static/css/main.b0f200e5.css",
+    "main.js": "/jami-downs-portfolio/static/js/main.1e0b76aa.js",
     "static/js/787.9640a47a.chunk.js": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js",
     "static/media/RBAbout.pdf": "/jami-downs-portfolio/static/media/RBAbout.7586aa396d17081ea75b.pdf",
     "static/media/RBNews.pdf": "/jami-downs-portfolio/static/media/RBNews.59a4408fe4a920400d73.pdf",
@@ -34,18 +34,18 @@
     "static/media/rose.jpg": "/jami-downs-portfolio/static/media/rose.d274861e3926ae6021a2.jpg",
     "static/media/swing.jpg": "/jami-downs-portfolio/static/media/swing.710d6dd46d01600259de.jpg",
     "static/media/ringRose.jpg": "/jami-downs-portfolio/static/media/ringRose.393777e4e3f1340aff92.jpg",
-    "static/media/jamiResume.pdf": "/jami-downs-portfolio/static/media/jamiResume.d507db140dfa7bd04104.pdf",
+    "static/media/jamiResume.pdf": "/jami-downs-portfolio/static/media/jamiResume.78601684f425696946f2.pdf",
     "static/media/product.jpg": "/jami-downs-portfolio/static/media/product.6e195501fee54c79acec.jpg",
     "static/media/instaGramLogoWhite.png": "/jami-downs-portfolio/static/media/instaGramLogoWhite.4a1481f4e06bd5d6fe75.png",
     "static/media/jamiLogo.png": "/jami-downs-portfolio/static/media/jamiLogo.aef463d8e44a627bd44b.png",
     "static/media/jamiIcon.png": "/jami-downs-portfolio/static/media/jamiIcon.4af46931d0a80d18a916.png",
     "index.html": "/jami-downs-portfolio/index.html",
-    "main.f46437d7.css.map": "/jami-downs-portfolio/static/css/main.f46437d7.css.map",
-    "main.67085994.js.map": "/jami-downs-portfolio/static/js/main.67085994.js.map",
+    "main.b0f200e5.css.map": "/jami-downs-portfolio/static/css/main.b0f200e5.css.map",
+    "main.1e0b76aa.js.map": "/jami-downs-portfolio/static/js/main.1e0b76aa.js.map",
     "787.9640a47a.chunk.js.map": "/jami-downs-portfolio/static/js/787.9640a47a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f46437d7.css",
-    "static/js/main.67085994.js"
+    "static/css/main.b0f200e5.css",
+    "static/js/main.1e0b76aa.js"
   ]
 }
