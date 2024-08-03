@@ -1,4 +1,6 @@
 import classes from "./Footer.module.css";
+import linkedin from "../../assets/images/In-White-40.png"
+import insta from "../../assets/images/instaGramLogoWhite.png"
 
 const Footer = () => {
   //Get Year for Footer
@@ -19,7 +21,7 @@ const Footer = () => {
           >
             <img
               className={classes.linkedin}
-              src={require("../../assets/images/In-White-40.png")}
+              src={linkedin}
               alt="LinkedIn Logo"
             ></img>
           </a>
@@ -32,7 +34,7 @@ const Footer = () => {
           >
             <img
               className={classes.instagram}
-              src={require("../../assets/images/instaGramLogoWhite.png")}
+              src={insta}
               alt="LinkedIn Logo"
             ></img>
           </a>
