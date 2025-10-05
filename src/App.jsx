@@ -7,43 +7,45 @@ import ProjectsPage from "./components/Projects/ProjectsPage";
 import HomePage from "./components/Home/HomePage";
 import ProjectList from "./components/Projects/ProjectList";
 
-const router = createBrowserRouter([
-  {
-      path: '/',
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
       element: <RootLayout />,
       errorElement: <ErrorPage />,
       children: [
-          {
-              path: '/',
-              element: <HomePage/>,
-          },
-          {
-            path: '/about',
-            element: <AboutPage />,
+        {
+          path: "/",
+          element: <HomePage />,
         },
-          {
-  path: '/projects',
-  element: <Outlet />,
-  children: [
-      {   
-          index: true,
-          element: <ProjectsPage />
-      },
-      {
-          path: '/projects/:name',
-          element: <ProjectList/>
-      },
-      
-      {
-        path: '/projects/:name/:id',
-        element: <ProjectDetailPage/>
-    }
-  ]
-},
+        {
+          path: "/about",
+          element: <AboutPage />,
+        },
+        {
+          path: "/projects",
+          element: <Outlet />,
+          children: [
+            {
+              index: true,
+              element: <ProjectsPage />,
+            },
+            {
+              path: "/projects/:name",
+              element: <ProjectList />,
+            },
+
+            {
+              path: "/projects/:name/:id",
+              element: <ProjectDetailPage />,
+            },
+          ],
+        },
       ],
-  },
-] ,
-{ basename: "/jami-downs-portfolio" });
+    },
+  ],
+  { basename: "/jami-downs-portfolio" }
+);
 
 function App() {
   return <RouterProvider router={router} />;

@@ -1,6 +1,6 @@
 import classes from "./Footer.module.css";
-import linkedin from "../../assets/images/In-White-40.png"
-import insta from "../../assets/images/instaGramLogoWhite.png"
+import linkedin from "../../assets/images/In-White-40.png";
+import insta from "../../assets/images/instaGramLogoWhite.png";
 
 const Footer = () => {
   //Get Year for Footer

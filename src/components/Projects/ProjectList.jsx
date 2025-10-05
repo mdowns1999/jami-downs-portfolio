@@ -16,11 +16,11 @@ const ProjectList = () => {
   let title = params.name.charAt(0).toUpperCase() + params.name.slice(1);
   let projectItems;
 
-  const PROJECTS = getProjects(params.name)
-  let projects = PROJECTS
+  const PROJECTS = getProjects(params.name);
+  let projects = PROJECTS;
 
-//generate the cards.  The email card (in the else statement) is special becuase it loads PDF's
-function generateCards(projects) {
+  //generate the cards.  The email card (in the else statement) is special becuase it loads PDF's
+  function generateCards(projects) {
     return projects.map((project) => {
       if (project.type !== "Email") {
         return (
@@ -57,7 +57,7 @@ function generateCards(projects) {
     filteredProjects = projects;
   }
 
-//Put the content into cards
+  //Put the content into cards
   projectItems = generateCards(filteredProjects);
 
   return (
@@ -83,11 +83,9 @@ function generateCards(projects) {
       <ul className={classes.projectsList}>{projectItems}</ul>
 
       <div className="btnBox">
-      <Link to="/projects">
-        <Button>
-          Back to Projects
-        </Button>
-       </Link>
+        <Link to="/projects">
+          <Button>Back to Projects</Button>
+        </Link>
       </div>
     </div>
   );

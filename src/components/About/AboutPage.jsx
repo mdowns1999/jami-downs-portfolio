@@ -1,8 +1,8 @@
 import Button from "../UI/Button";
 import resume from "../../assets/files/jamiResume.pdf";
 import classes from "./AboutPage.module.css";
-import aboutPhoto from "../../assets/images/aboutJami.jpg"
-import skillsPhoto from "../../assets/images/skillsPhoto.jpg"
+import aboutPhoto from "../../assets/images/aboutJami.jpg";
+import skillsPhoto from "../../assets/images/skillsPhoto.jpg";
 
 const AboutPage = () => {
   //Make Sure we are at the top of the page!
@@ -45,18 +45,12 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <img
-            src={aboutPhoto}
-            alt="Jami Downs"
-          ></img>
+          <img src={aboutPhoto} alt="Jami Downs"></img>
         </section>
 
         <div className={classes.skilsWrapper}>
           <section className={classes.skillsBox}>
-            <img
-              src={skillsPhoto}
-              alt="Jami Downs"
-            ></img>
+            <img src={skillsPhoto} alt="Jami Downs"></img>
             <div className={classes.skillsContent}>
               <h1>My Skills</h1>
               <p className={classes.text}>

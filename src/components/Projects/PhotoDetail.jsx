@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
-import PropTypes from 'prop-types'; // Import PropTypes
+import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import getProjects from "../../helper/getProjects";
-import imageMap from '../../assets/imageMappings'; // Import the image mappings
+import imageMap from "../../assets/imageMappings"; // Import the image mappings
 import classes from "./ProjectDetailPage.module.css";
 
 const PhotoDetail = (props) => {
@@ -41,7 +41,7 @@ const PhotoDetail = (props) => {
 // Define PropTypes
 PhotoDetail.propTypes = {
   id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
 };
 
 export default PhotoDetail;
