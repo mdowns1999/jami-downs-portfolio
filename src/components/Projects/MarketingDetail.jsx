@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import getProjects from "../../helper/getProjects";
 import classes from "./ProjectDetailPage.module.css";
 
@@ -28,6 +29,11 @@ const MarketDetail = (props) => {
       </div>
     </div>
   );
+};
+
+MarketDetail.propTypes = {
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default MarketDetail;

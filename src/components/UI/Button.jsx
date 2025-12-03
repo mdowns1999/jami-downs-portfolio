@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classes from "./Button.module.css";
 
 const Button = (props) => {
@@ -6,6 +7,11 @@ const Button = (props) => {
       {props.children}
     </button>
   );
+};
+
+Button.propTypes = {
+  onClick: PropTypes.func,
+  children: PropTypes.node,
 };
 
 export default Button;

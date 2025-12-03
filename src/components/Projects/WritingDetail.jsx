@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import getProjects from "../../helper/getProjects";
 import classes from "./ProjectDetailPage.module.css";
 
@@ -17,6 +18,11 @@ const WritingDetail = (props) => {
       <div className={classes.content}>{content}</div>
     </div>
   );
+};
+
+WritingDetail.propTypes = {
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default WritingDetail;

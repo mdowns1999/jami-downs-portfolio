@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 import classes from "./NavItems.module.css";
 import { motion } from "framer-motion";
 
@@ -65,6 +66,10 @@ const NavItems = (props) => {
       </motion.li>
     </>
   );
+};
+
+NavItems.propTypes = {
+  onClick: PropTypes.func,
 };
 
 export default NavItems;

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 import classes from "./ProjectCard.module.css";
 
 const ProjectCard = (props) => {
@@ -8,6 +9,11 @@ const ProjectCard = (props) => {
       <div className={classes.projectCard}>{name}</div>
     </Link>
   );
+};
+
+ProjectCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;

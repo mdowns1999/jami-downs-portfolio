@@ -1,9 +1,11 @@
+import blankImage from "../assets/images/blank.png";
+
 const getImage = (imageName) => {
   switch (imageName) {
     case "Poppin Soda":
-      return require("../assets/images/blank.png");
+      return blankImage;
     default:
-      return require("../assets/images/blank.png");
+      return blankImage;
   }
 };
 
