@@ -1,22 +1,45 @@
 import PropTypes from "prop-types";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import getProjects from "../../helper/getProjects";
-import classes from "./ProjectDetailPage.module.css";
 
-const WritingDetail = (props) => {
-  let projects = getProjects(props.name);
-  console.log(projects);
-  let project = projects.filter((project) => project.id === props.id);
-  let title = project[0].name;
-  let content = project[0].content.map((paragraph, index) => (
-    <p key={"para" + index}>{paragraph}</p>
-  ));
+const WritingDetail = ({ name, id }) => {
+  const projects = getProjects(name);
+  const project = projects.filter((p) => p.id === id)[0];
+  const title = project.name;
+
   return (
-    <div className={classes.detailContainer}>
-      <section className="banner">
-        <h1>{title}</h1>
-      </section>
-      <div className={classes.content}>{content}</div>
-    </div>
+    <Container maxWidth="sm" sx={{ my: 4 }}>
+      <Box
+        sx={{
+          textAlign: "center",
+          maxWidth: 250,
+          mx: "auto",
+          my: 3,
+          py: 2,
+          borderTop: "1px solid",
+          borderBottom: "1px solid",
+          borderColor: "text.primary",
+        }}
+      >
+        <Typography variant="h4" sx={{ fontFamily: '"Playfair Display", serif' }}>
+          {title}
+        </Typography>
+      </Box>
+
+      <Box sx={{ mt: 3 }}>
+        {project.content.map((paragraph, index) => (
+          <Typography
+            key={"para" + index}
+            variant="body1"
+            sx={{ mb: 2, lineHeight: 1.8, letterSpacing: "0.3px" }}
+          >
+            {paragraph}
+          </Typography>
+        ))}
+      </Box>
+    </Container>
   );
 };
 

@@ -1,11 +1,13 @@
+import { lazy } from "react";
 import RootLayout from "./components/Layout/Root";
-import ProjectDetailPage from "./components/Projects/ProjectDetailPage";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./components/UserFeedback/ErrorPage";
-import AboutPage from "./components/About/AboutPage";
-import ProjectsPage from "./components/Projects/ProjectsPage";
-import HomePage from "./components/Home/HomePage";
-import ProjectList from "./components/Projects/ProjectList";
+
+const HomePage = lazy(() => import("./components/Home/HomePage"));
+const AboutPage = lazy(() => import("./components/About/AboutPage"));
+const ProjectsPage = lazy(() => import("./components/Projects/ProjectsPage"));
+const ProjectList = lazy(() => import("./components/Projects/ProjectList"));
+const ProjectDetailPage = lazy(() => import("./components/Projects/ProjectDetailPage"));
 
 const router = createBrowserRouter(
   [
@@ -34,7 +36,6 @@ const router = createBrowserRouter(
               path: "/projects/:name",
               element: <ProjectList />,
             },
-
             {
               path: "/projects/:name/:id",
               element: <ProjectDetailPage />,

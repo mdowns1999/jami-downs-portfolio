@@ -1,31 +1,51 @@
-import { useRouteError } from "react-router-dom";
-import Footer from "../Layout/Footer";
+import { useRouteError, Link } from "react-router-dom";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import MuiButton from "@mui/material/Button";
 import Header from "../Layout/Header";
-import classes from "./ErrorPage.module.css";
+import Footer from "../Layout/Footer";
 
 const ErrorPage = () => {
   const error = useRouteError();
 
-  let title = "An error Occurred";
-  let message = "Something went wrong!  Please try again later.";
+  let title = "An Error Occurred";
+  let message = "Something went wrong! Please try again later.";
 
-  //This will help us determine what kind of error Page we show the user.
   if (error.status === 404) {
     title = "Not Found!";
-    message = "Could not find page!";
+    message = "Could not find that page.";
   }
 
   return (
-    <div className="container">
+    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <Header />
-      <main>
-        <div className={classes.ErrorBox}>
-          <h1 className="pageBanner">{title}</h1>
-          <p>{message}</p>
-        </div>
-      </main>
+      <Box
+        component="main"
+        sx={{
+          flex: 1,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Container maxWidth="sm" sx={{ textAlign: "center", py: 6 }}>
+          <Typography
+            variant="h3"
+            sx={{ fontFamily: '"Playfair Display", serif', mb: 2, color: "primary.main" }}
+          >
+            {title}
+          </Typography>
+          <Typography variant="body1" sx={{ color: "text.secondary", mb: 4 }}>
+            {message}
+          </Typography>
+          <MuiButton variant="contained" component={Link} to="/">
+            Go Home
+          </MuiButton>
+        </Container>
+      </Box>
       <Footer />
-    </div>
+    </Box>
   );
 };
 
