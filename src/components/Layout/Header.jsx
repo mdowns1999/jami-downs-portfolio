@@ -1,20 +1,29 @@
 import { Link } from "react-router-dom";
-import classes from "./Header.module.css";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import Box from "@mui/material/Box";
 import NavDesktop from "./NavDesktop";
-import { NavMobile } from "./NavMobile";
+import NavMobile from "./NavMobile";
 import logo from "../../assets/images/jamiLogo.png";
 
 const Header = () => {
   return (
-    <header className={classes.header}>
-      <Link to="/">
-        <img src={logo} alt="Jami Downs Portfolio Logo"></img>
-      </Link>
-      <div className={classes.navBox}>
-        <NavDesktop />
-        <NavMobile />
-      </div>
-    </header>
+    <AppBar position="static">
+      <Toolbar sx={{ justifyContent: "space-between" }}>
+        <Link to="/" style={{ lineHeight: 0 }}>
+          <Box
+            component="img"
+            src={logo}
+            alt="Jami Downs Portfolio Logo"
+            sx={{ width: 125 }}
+          />
+        </Link>
+        <Box sx={{ display: "flex", alignItems: "center" }}>
+          <NavDesktop />
+          <NavMobile />
+        </Box>
+      </Toolbar>
+    </AppBar>
   );
 };
 

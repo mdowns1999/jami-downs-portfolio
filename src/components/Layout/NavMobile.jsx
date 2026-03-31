@@ -1,37 +1,46 @@
-import { useClickAway } from "react-use";
-import { useRef } from "react";
 import { useState } from "react";
-import { Squash as Hamburger } from "hamburger-react";
-import classes from "./NavMobile.module.css";
+import Box from "@mui/material/Box";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
 import NavItems from "./NavItems";
 
-export const NavMobile = () => {
-  const [isOpen, setOpen] = useState(false);
-  const ref = useRef(null);
-
-  useClickAway(ref, () => setOpen(false));
-
-  const handleClick = () => {
-    setOpen(false);
-  };
+const NavMobile = () => {
+  const [open, setOpen] = useState(false);
 
   return (
-    <div ref={ref} className={classes.mobileNavBox}>
-      <Hamburger toggled={isOpen} size={30} toggle={setOpen} color="white" />
-      {isOpen && (
-        <nav
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.2 }}
-          className={classes.mobileNav}
+    <Box sx={{ display: { xs: "block", sm: "none" } }}>
+      <IconButton
+        onClick={() => setOpen(true)}
+        sx={{ color: "white" }}
+        aria-label="Open navigation menu"
+      >
+        <MenuIcon />
+      </IconButton>
+      <Drawer
+        anchor="right"
+        open={open}
+        onClose={() => setOpen(false)}
+        PaperProps={{
+          sx: {
+            backgroundColor: "primary.main",
+            width: 240,
+            pt: 2,
+          },
+        }}
+      >
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            p: 2,
+          }}
         >
-          <ul>
-            <NavItems onClick={handleClick} />
-          </ul>
-        </nav>
-      )}
-    </div>
+          <NavItems onClick={() => setOpen(false)} />
+        </Box>
+      </Drawer>
+    </Box>
   );
 };
 

@@ -1,69 +1,68 @@
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
-import classes from "./NavItems.module.css";
 import { motion } from "framer-motion";
+import MuiButton from "@mui/material/Button";
 
-const NavItems = (props) => {
+const navLinkStyle = (isActive) => ({
+  color: isActive ? "#f7d497" : "white",
+  textTransform: "none",
+  fontFamily: '"Lato", sans-serif',
+  fontWeight: 400,
+  fontSize: "1rem",
+  minWidth: 0,
+  px: 1.5,
+  "&:hover": {
+    backgroundColor: "primary.light",
+    borderRadius: 2,
+  },
+});
+
+const springTransition = (delay) => ({
+  type: "spring",
+  stiffness: 260,
+  damping: 20,
+  delay,
+});
+
+const NavItems = ({ onClick }) => {
   return (
     <>
-      <motion.li
+      <motion.div
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{
-          type: "spring",
-          stiffness: 260,
-          damping: 20,
-          delay: 0.1 + 0 / 10,
-        }}
-        className={classes.item}
-        onClick={props.onClick}
+        transition={springTransition(0.1)}
+        onClick={onClick}
       >
-        <NavLink
-          to="/"
-          className={({ isActive }) => (isActive ? classes.active : undefined)}
-          end
-        >
-          Home
+        <NavLink to="/" end>
+          {({ isActive }) => (
+            <MuiButton sx={navLinkStyle(isActive)}>Home</MuiButton>
+          )}
         </NavLink>
-      </motion.li>
-      <motion.li
+      </motion.div>
+      <motion.div
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{
-          type: "spring",
-          stiffness: 260,
-          damping: 20,
-          delay: 0.1 + 1 / 10,
-        }}
-        className={classes.item}
-        onClick={props.onClick}
+        transition={springTransition(0.2)}
+        onClick={onClick}
       >
-        <NavLink
-          to="about"
-          className={({ isActive }) => (isActive ? classes.active : undefined)}
-        >
-          About
+        <NavLink to="about">
+          {({ isActive }) => (
+            <MuiButton sx={navLinkStyle(isActive)}>About</MuiButton>
+          )}
         </NavLink>
-      </motion.li>
-      <motion.li
+      </motion.div>
+      <motion.div
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{
-          type: "spring",
-          stiffness: 260,
-          damping: 20,
-          delay: 0.1 + 1 / 10,
-        }}
-        className={classes.item}
-        onClick={props.onClick}
+        transition={springTransition(0.3)}
+        onClick={onClick}
       >
-        <NavLink
-          to="projects"
-          className={({ isActive }) => (isActive ? classes.active : undefined)}
-        >
-          Projects
+        <NavLink to="projects">
+          {({ isActive }) => (
+            <MuiButton sx={navLinkStyle(isActive)}>Projects</MuiButton>
+          )}
         </NavLink>
-      </motion.li>
+      </motion.div>
     </>
   );
 };

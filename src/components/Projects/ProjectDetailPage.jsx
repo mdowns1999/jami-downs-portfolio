@@ -1,14 +1,15 @@
 import { Link, useParams } from "react-router-dom";
+import Box from "@mui/material/Box";
+import MuiButton from "@mui/material/Button";
 import WritingDetail from "./WritingDetail";
 import PhotoDetail from "./PhotoDetail";
 import MarketDetail from "./MarketingDetail";
-import Button from "../UI/Button";
 
 const ProjectDetailPage = () => {
   const params = useParams();
-  let name = params.name.charAt(0).toUpperCase() + params.name.slice(1);
+  const name = params.name.charAt(0).toUpperCase() + params.name.slice(1);
 
-  let content = "";
+  let content;
   if (params.name === "writing") {
     content = <WritingDetail id={params.id} name={params.name} />;
   } else if (params.name === "photography") {
@@ -20,11 +21,15 @@ const ProjectDetailPage = () => {
   return (
     <>
       {content}
-      <div className="btnBox">
-        <Link to={`/projects/` + params.name}>
-          <Button>Back to {name}</Button>
-        </Link>
-      </div>
+      <Box sx={{ maxWidth: 300, mx: "auto", my: 4, textAlign: "center" }}>
+        <MuiButton
+          variant="contained"
+          component={Link}
+          to={`/projects/${params.name}`}
+        >
+          Back to {name}
+        </MuiButton>
+      </Box>
     </>
   );
 };

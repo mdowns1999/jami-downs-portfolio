@@ -1,42 +1,59 @@
-import classes from "./ProjectsPage.module.css";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import ProjectCard from "./ProjectCard";
+import { useEffect } from "react";
+
+const projectSubjects = [
+  { id: "1", name: "marketing" },
+  { id: "2", name: "photography" },
+  { id: "3", name: "writing" },
+];
 
 const ProjectsPage = () => {
-  //Make Sure we are at the top of the page!
-  window.scrollTo(0, 0);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  let projectSubjects = [
-    {
-      id: "1",
-      name: "marketing",
-    },
-    {
-      id: "2",
-      name: "photography",
-    },
-    {
-      id: "3",
-      name: "writing",
-    },
-  ];
   return (
-    <div className={classes.projects}>
-      <section className="banner">
-        <h1>Projects</h1>
-      </section>
+    <Box>
+      <Box
+        sx={{
+          textAlign: "center",
+          maxWidth: 250,
+          mx: "auto",
+          my: 3,
+          py: 2,
+          borderTop: "1px solid",
+          borderBottom: "1px solid",
+          borderColor: "text.primary",
+        }}
+      >
+        <Typography variant="h4" sx={{ fontFamily: '"Playfair Display", serif' }}>
+          Projects
+        </Typography>
+      </Box>
 
-      <section className={classes.subjects}>
-        {projectSubjects.map((project) => {
-          return (
-            <ProjectCard
-              key={project.id}
-              link={project.name}
-              name={project.name}
-            />
-          );
-        })}
-      </section>
-    </div>
+      <Box
+        sx={{
+          display: "grid",
+          gridTemplateColumns: { xs: "1fr", sm: "1fr 1fr", md: "1fr 1fr 1fr" },
+          gap: 4,
+          maxWidth: 1200,
+          mx: "auto",
+          px: 3,
+          pb: 6,
+        }}
+      >
+        {projectSubjects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            link={project.name}
+            name={project.name}
+            isCategoryTile
+          />
+        ))}
+      </Box>
+    </Box>
   );
 };
 

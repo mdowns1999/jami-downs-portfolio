@@ -1,9 +1,0 @@
-.subjects {
-  max-width: 1200px;
-  margin: 3em auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
-  justify-content: space-evenly;
-  padding: 10px;
-}

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a React 19 portfolio site for showcasing creative work across three categories: writing, photography, and marketing. Built with Vite and deployed to GitHub Pages.
+This is a React 19 portfolio site for showcasing creative work across three categories: writing, photography, and marketing. Built with Vite and deployed to GitHub Pages. Styled with Material UI (MUI) v5.
 
 ## Essential Commands
 
@@ -41,9 +41,8 @@ All project content lives in JSON files at `src/assets/project-files/`:
 - `writing.json` - Writing samples with content arrays
 - `photo.json` - Photography projects with image arrays
 - `projects.json` - Combined data for all project types
-- `marketing.json` - Marketing projects (videos, emails, PDFs)
 
-When adding new projects, edit the appropriate JSON file. The components automatically render from this data.
+When adding new projects, edit the appropriate JSON file. The components automatically render from this data. **Never hardcode project data in component files.**
 
 ### Component Organization
 
@@ -55,24 +54,42 @@ src/components/
 │   ├── WritingDetail.jsx        # Renders writing content
 │   ├── PhotoDetail.jsx          # Renders photo galleries
 │   └── MarketingDetail.jsx      # Renders videos/PDFs
-├── UI/              # Reusable components (Button, Card, RadioButton)
+├── Home/            # Home page hero
+├── About/           # About page
 └── UserFeedback/    # Error pages
 ```
+
+Note: `src/components/UI/` no longer contains custom primitives — Button, Card, and RadioButton have been replaced by MUI components used directly.
 
 **Key Pattern**: `ProjectDetailPage.jsx` acts as a dispatcher that routes to the correct detail component (Writing, Photo, or Marketing) based on the URL parameter.
 
 ### Styling
 
-Uses CSS Modules exclusively. Each component has a corresponding `.module.css` file. Import styles as:
-```javascript
-import classes from './ComponentName.module.css';
-```
+Uses **Material UI (MUI) v5** with the `sx` prop for all component-level styles. There are no `.module.css` files.
+
+- **Theme file**: `src/theme.js` — all colors, fonts, and global component overrides are defined here. To change a color site-wide, edit `theme.js` only.
+- **Adding styles**: Use the `sx` prop on MUI components. Do NOT create `.module.css` files.
+- **Theme is applied via**: `<ThemeProvider>` + `<CssBaseline>` wrapping the app in `src/main.jsx`.
+
+### MUI Theme Quick Reference
+
+| Token | Hex | Usage |
+|---|---|---|
+| `primary.main` | `#395144` | AppBar, Footer, primary buttons |
+| `primary.light` | `#5a7e5d` | Hover states |
+| `secondary.main` | `#aa8b56` | Card accents, Chips, dividers |
+| `background.default` | `#f0ebce` | Page background (cream) |
+| `background.paper` | `#faf7ef` | Cards, Drawer |
+| Active nav link | `#f7d497` | Applied inline via NavLink `isActive` callback |
+
+Fonts: **Playfair Display** (headings, serif) + **Lato** (body, sans-serif) — loaded from Google Fonts via `index.html`.
 
 ### Third-Party Libraries
 
-- **framer-motion**: Used for page transitions and animations. The ESLint config has special rules to allow Framer Motion props (`initial`, `animate`, `exit`, `transition`, etc.)
-- **hamburger-react**: Mobile navigation hamburger menu
-- **react-use**: React hooks utilities
+- **@mui/material**: UI component library. Theme in `src/theme.js`.
+- **@mui/icons-material**: Icon set used in Footer (LinkedIn/Instagram), NavMobile (menu icon), ProjectCard (category icons).
+- **@emotion/react** + **@emotion/styled**: Required MUI styling engine (peer dependencies).
+- **framer-motion**: Used for nav item spring animations and home page hero fade-in.
 
 ## GitHub Pages Configuration
 
@@ -83,7 +100,7 @@ The site deploys to `https://mdowns1999.github.io/jami-downs-portfolio/`. Both t
 Images are stored in `src/assets/images/` with a mapping file at `src/assets/imageMappings.js`. When adding new images:
 1. Place image files in the images directory
 2. Reference them in the appropriate JSON file by filename
-3. Update `imageMappings.js` if needed
+3. Add the import and mapping entry to `imageMappings.js`
 
 ## React 19 Specifics
 
